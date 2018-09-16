@@ -1,0 +1,16 @@
+{
+  "name": "selenium-cucumber-js-testing-hola",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "selenium-cucumber-js": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions"
+  },
+  "author": "",
+  "license": "ISC"
+}
